@@ -1,0 +1,631 @@
+@import url(https://fonts.cdnfonts.com/css/botanity);
+@import url(https://fonts.cdnfonts.com/css/zen-maru-gothic);
+@import url(https://fonts.cdnfonts.com/css/abela-sweety);
+@import url(https://fonts.cdnfonts.com/css/outright-2);
+@import url(https://fonts.cdnfonts.com/css/bastian-melany);
+@import url(https://fonts.cdnfonts.com/css/baby-gladys);
+#page_banner, #sb_top, #sb_side, #page_footer, hr, #aio_sidebar, #aio_sidebar_placeholder, .ul--collectionslabel::after, #userLookupCollections strong, .ul--linktext.smallfont, .ul--bdinfo, .uul--neodeck, .ul--sitethemes {
+    display: none
+    }
+#page_content {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto
+    }
+body {
+    background-image: linear-gradient(#facfde, #d2e4f9, #e7fff5, #dad2fe);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-transform: lowercase;
+    font-weight: normal;
+    font-size: 11px;
+    font-family: "Zen Maru Gothic", sans-serif;
+    letter-spacing: 0.5px;
+    color: #666
+    }
+#userLookupContent {
+    padding: 40px 0;
+    background: #fff;
+    width: 595px !important;
+    margin: auto;
+    right: 0;
+    left: 0;
+    display: grid;
+    grid-template-areas: "header header header header" "nav nav nav nav" "desc desc desc desc" "about about about about" "ullink ullink ullink ullink" "pets pets pets pets" "sitetrophies sitetrophies sitetrophies sitetrophies" "gametrophies gametrophies gametrophies gametrophies" "blockandreport blockandreport blockandreport blockandreport"
+    }
+.ul--header {
+    font-family: "Baby Gladys", sans-serif;
+    right: 0;
+    left: 0;
+    margin: auto;
+    grid-area: header;
+    font-size: 40px;
+    line-height: 20px;
+    letter-spacing: 3px;
+    font-weight: normal;
+    color: #dad2fe;
+    text-transform: lowercase;
+    font-weight: normal !important
+    }
+#userLookupDesc {
+    grid-area: desc;
+    background-color: transparent;
+    font-family: "Zen Maru Gothic", sans-serif;
+    font-size: 11px
+    }
+#userLookupSiteTrophies {
+    position: absolute;
+    top: 3950px
+    }
+#userLookupGameTrophies {
+    position: absolute;
+    top: 4200px
+    }
+.ul--sitetrophiesheader strong, .ul--gametrophiesheader strong {
+    font-family: "Baby Gladys", sans-serif;
+    font-size: 30px;
+    line-height: 20px;
+    letter-spacing: 3px;
+    font-weight: normal;
+    color: #dad2fe;
+    text-transform: lowercase
+    }
+#userLookupInfo {
+    padding: 20px;
+    grid-area: about;
+    display: grid;
+    grid-template-columns: 300px 100px;
+    grid-template-areas: "text collections";
+    background-color: #fff
+    }
+#userLookupText {
+    margin-left: 15px
+    }
+#userLookupCollections {
+    display: flex;
+    flex-direction: column
+    }
+#userLookupShield {
+    height: 125px;
+    width: auto;
+    position: absolute;
+    left: 20;
+    right: 0
+    }
+#userLookupShield:hover {
+    opacity: 1
+    }
+#userLookupPets {
+    grid-area: pets;
+    background-color: #fff;
+    position: absolute;
+    top: 300px;
+    height: 3650px;
+    align-content: center;
+    align-items: center;
+    text-align: center
+    }
+#userLookupPets img {
+    opacity: 0.8;
+    padding: 5px;
+    width: 100px;
+    transition: 0.5s
+    }
+#userLookupSiteTrophies img, #userLookupGameTrophies img {
+    height: 60px;
+    width: auto
+    }
+#userLookupPets img:hover, #userLookupSiteTrophies img:hover, #userLookupGameTrophies img:hover {
+    opacity: 1
+    }
+#userLookupSiteTrophies {
+    grid-area: sitetrophies;
+    background-color: #fff;
+    padding: 20px
+    }
+#userLookupGameTrophies {
+    grid-area: gametrophies;
+    background-color: #fff;
+    padding: 20px
+    }
+#userLookupInfo {
+    height: 120px
+    }
+#userLookupInfo, #userLookupText, #userLookupCollections, #userLookupLinks {
+    z-index: 4
+    }
+#userLookupLinks {
+    grid-area: ullink;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    background-color: #fff
+    }
+#userLookupLinks img, #userLookupInfo img {
+    transition: 0.5s
+    }
+.ul--avatarsimg {
+    content: url(https://i.imgur.com/vSugHoz.gif)
+    }
+.ul--avatarsimg, .ul--stampsimg {
+    width: 40px !important;
+    height: auto !important;
+    opacity: 0.8;
+    transition: 0.5s
+    }
+.ul__link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50px;
+    width: 65px;
+    justify-content: space-evenly
+    }
+.ul--neofriendimg {
+    transform: translatey(7px)
+    }
+strong {
+    color: #f69fb5;
+    font-family: "Zen Maru Gothic", sans-serif;
+    text-transform: lowercase;
+    font-weight: normal
+    }
+a, .ul--button {
+    color: #90b5ff;
+    font-family: "Zen Maru Gothic", sans-serif;
+    font-weight: normal;
+    letter-spacing: 1px !important;
+    text-transform: lowercase;
+    transition: 0.5s
+    }
+.ul--petname {
+    color: #da598a;
+    font-family: "Zen Maru Gothic", sans-serif;
+    font-weight: normal;
+    letter-spacing: 1px !important;
+    text-transform: capitalize;
+    transition: 0.5s
+    }
+h1 {
+    color: #732147;
+    font-style: italic;
+    font-family: "Baby Gladys", cursive;
+    font-size: 5em;
+    line-height: 5px;
+    letter-spacing: 0;
+    text-align: center
+    }
+h2 {
+    color: #DA598A;
+    font-family: monospace;
+    font-size: 3em;
+    letter-spacing: 5px;
+    margin: 5px;
+    font-weight: 100
+    }
+h3 {
+    color: #3F8456;
+    font-style: oblique;
+    letter-spacing: 10px;
+    margin: 5px;
+    font-weight: 500
+    }
+::-webkit-scrollbar {
+    width: 1px;
+    height: 1px
+    }
+::-webkit-scrollbar-thumb {
+    background: transparent
+    }
+.ul--sectionheader::before, .ul--sectionheader::after {
+    content: " "
+    }
+#userLookupLinks img:hover, .ul--neofriendimg:hover, .ul--stampsimg:hover, .ul--avatarsimg:hover {
+    opacity: 1
+    }
+a:hover {
+    letter-spacing: 2px !important;
+    color: #c2e5e6
+    }
+.nav a img {
+    text-decoration: none
+    }
+#userReportBlock {
+    grid-area: blockandreport;
+    background-color: #fff;
+    padding: 20px
+    }
+::selection {
+    background: transparent;
+    color: #c2e5e6
+    }
+.ul--tradesimg, .ul--scoresimg, .ul--neomailimg, .ul--auctionsimg, .ul--wishlistimg, .ul--neofriendimg {
+    filter: hue-rotate(95deg) saturate(15%);
+    height: 30px;
+    width: auto;
+    opacity: 0.8;
+    transition: 0.5s
+    }
+.ul--stampsimg {
+    filter: hue-rotate(95deg) saturate(15%);
+    opacity: 0.8;
+    transition: 0.5s
+    }
+#links a {
+    background-color: #fff;
+    height: 20px;
+    width: 70px;
+    display: inline-block;
+    margin: 3px;
+    font-size: 11px;
+    font-weight: normal !important;
+    line-height: 20px;
+    border-radius: 99px;
+    border: 1px dotted #f99
+    }
+#links a:hover {
+    background: transparent;
+    border: none;
+    color: #fff !important
+    }
+#links {
+    position: fixed;
+    transform: translate(-90px, 30px)
+    }
+.ul--petsheader strong {
+    display: inline-flex;
+    font-family: "Baby Gladys", cursive;
+    color: #DA598A;
+    font-size: 30px;
+    padding-top: 20px
+    }
+#userLookupShield {
+    content: url(http://i.imgur.com/eJVPrt2.gif);
+    height: 150px;
+    width: auto
+    }
+.ul__Cath img {
+    content: url(https://i.imgur.com/j6GENt7.png)
+    }
+.ul__Darlyn img {
+    content: url(https://i.imgur.com/5lkTaQq.png)
+    }
+.ul__Erick img {
+    content: url(https://i.imgur.com/HPvYF6R.png)
+    }
+.ul__Dasha img {
+    content: url(https://i.imgur.com/5m6bBYL.png)
+    }
+.ul__Werther img {
+    content: url(https://i.imgur.com/6rTtTOh.png)
+    }
+.ul__Amoris img {
+    content: url(https://i.imgur.com/Q47G3md.png)
+    }
+.ul__Florah img {
+    content: url(https://i.imgur.com/S4WTiRL.png)
+    }
+.ul__Fini img {
+    content: url(https://i.imgur.com/bw4N28W.png)
+    }
+.ul__Chantily img {
+    content: url(https://i.imgur.com/3iN9fPT.png)
+    }
+.ul__Berryl img {
+    content: url(https://i.imgur.com/MkskkSs.png)
+    }
+.ul__Alyxa img {
+    content: url(https://i.imgur.com/sKG3sIs.png)
+    }
+.ul__Stela img {
+    content: url(https://i.imgur.com/8z15PUG.png)
+    }
+.ul__Cybot img {
+    content: url(https://i.imgur.com/SKaLj4g.png)
+    }
+.ul__Flufy img {
+    content: url(https://i.imgur.com/DPUT0rO.png)
+    }
+.ul__Pselia img {
+    content: url(https://i.imgur.com/QfUk7ps.png)
+    }
+.ul__Scrubb img {
+    content: url(https://i.imgur.com/VBioU2l.png)
+    }
+.ul__Argila img {
+    content: url(https://i.imgur.com/gTGOWeV.png)
+    }
+.ul__Drewie img {
+    content: url(https://i.imgur.com/TkoMpi9.png)
+    }
+.ul__Nefertari img {
+    content: url(https://i.imgur.com/RiAYGkn.png)
+    }
+.ul__Alpe img {
+    content: url(https://i.imgur.com/KW18sxz.png)
+    }
+.ul__Morganna img {
+    content: url(https://i.imgur.com/FyAxTh4.png)
+    }
+.ul__Ruffbeard img {
+    content: url(https://i.imgur.com/WR7Gt2N.png)
+    }
+.ul__Mikaelson img {
+    content: url(https://i.imgur.com/CFOpvV5.png)
+    }
+.ul__Spectrel img {
+    content: url(https://i.imgur.com/bq67l5w.png)
+    }
+.ul__Uggo img {
+    content: url(https://i.imgur.com/uHWcepU.png)
+    }
+.ul__Ailani img {
+    content: url(https://i.imgur.com/tg6jBfR.png)
+    }
+.ul__Delphin img {
+    content: url(https://i.imgur.com/eVBvBAw.png)
+    }
+.ul__Natalina img {
+    content: url(https://i.imgur.com/sYwNIaN.png)
+    }
+.ul__Annamite img {
+    content: url(https://i.imgur.com/HcOWwJd.png)
+    }
+.ul__Brilho img {
+    content: url(https://i.imgur.com/awf9Gjg.png)
+    }
+.ul__Tambor img {
+    content: url(https://i.imgur.com/jN9leFT.png)
+    }
+.ul__Haigha img {
+    content: url(https://i.imgur.com/IsdX6Ft.png)
+    }
+.ul__Piebald img {
+    content: url(https://i.imgur.com/VIVdhay.png)
+    }
+.ul__Arlequim img {
+    content: url(https://i.imgur.com/BWkoul7.png)
+    }
+.ul__Sables img {
+    content: url(https://i.imgur.com/02Ce1JP.png)
+    }
+.ul__Pennylane img {
+    content: url(https://i.imgur.com/OkKUVte.png)
+    }
+.ul__Provence img {
+    content: url(https://i.imgur.com/PIMqoV9.png)
+    }
+.ul__Roselie img {
+    content: url(https://i.imgur.com/pJYcMdf.png)
+    }
+.ul__Emuxa img {
+    content: url(https://i.imgur.com/Uhrw9Sn.png)
+    }
+.ul__Brych img {
+    content: url(https://i.imgur.com/d7hBqYG.png)
+    }
+.ul__Bitbun img {
+    content: url(https://i.imgur.com/0Eir5cF.png)
+    }
+.ul__Cutia img {
+    content: url(https://i.imgur.com/HmRHFKB.png)
+    }
+.ul__Dutchy img {
+    content: url(https://i.imgur.com/vz4v0bY.png)
+    }
+.ul__Cesio img {
+    content: url(https://i.imgur.com/fmHEOJm.png)
+    }
+.ul__Energizzer img {
+    content: url(https://i.imgur.com/iZEttSi.png)
+    }
+.ul__Nagata img {
+    content: url(https://i.imgur.com/ujp3KD5.png)
+    }
+.ul__Bambita img {
+    content: url(https://i.imgur.com/gQAR58g.png)
+    }
+.ul__Cupio img {
+    content: url(https://i.imgur.com/5NvDffy.png)
+    }
+.ul__Dudalino img {
+    content: url(https://i.imgur.com/YA19dzd.png)
+    }
+.ul__Bachelur img {
+    content: url(https://i.imgur.com/7NwHhnH.png)
+    }
+.ul__Sirenn img {
+    content: url(https://i.imgur.com/NdlUPe8.png)
+    }
+.ul__GCBR img {
+    content: url(https://i.imgur.com/wbKh2Tn.png)
+    }
+.ul__hh2023_1 {
+    order: 3
+    }
+.ul__hh2024_1 {
+    order: 4
+    }
+.ul__sf_morris_1 {
+    order: 5
+    }
+.ul__sf_thyassa_1 {
+    order: 6
+    }
+.ul__ribbon_Morris {
+    order: 7
+    }
+.ul__ribbon_Thyassa {
+    order: 8
+    }
+.ul__volcano_trophy_1 {
+    order: 9
+    }
+.ul__ {
+    order: 1
+    }
+.ul__game3 {
+    order: 1
+    }
+.ul__game9 {
+    order: 2
+    }
+.ul__game27 {
+    order: 3
+    }
+.ul__game31 {
+    order: 4
+    }
+.ul__game34 {
+    order: 5
+    }
+.ul__game35 {
+    order: 6
+    }
+.ul__game36 {
+    order: 7
+    }
+.ul__game40 {
+    order: 8
+    }
+.ul__game42 {
+    order: 9
+    }
+.ul__game46 {
+    order: 10
+    }
+.ul__game49 {
+    order: 11
+    }
+.ul__game52 {
+    order: 12
+    }
+.ul__game54 {
+    order: 13
+    }
+.ul__game55 {
+    order: 14
+    }
+.ul__game58 {
+    order: 15
+    }
+.ul__game65 {
+    order: 16
+    }
+.ul__game68 {
+    order: 17
+    }
+.ul__game78 {
+    order: 18
+    }
+.ul__game8 {
+    order: 19
+    }
+.ul__game22 {
+    order: 20
+    }
+.ul__game39 {
+    order: 21
+    }
+.ul__game57 {
+    order: 22
+    }
+.ul__game63 {
+    order: 23
+    }
+.ul__game69 {
+    order: 24
+    }
+.ul__game83 {
+    order: 25
+    }
+.ul__game88 {
+    order: 26
+    }
+.ul__game89 {
+    order: 27
+    }
+.ul__game91 {
+    order: 28
+    }
+.ul__game3 img {
+    content: url(https://i.imgur.com/Oe2nZQr.png)
+    }
+.ul__game7 img {
+    content: url(https://i.imgur.com/sRZoaRS.png)
+    }
+.ul__game8 img {
+    content: url(https://i.imgur.com/gFk5Wqy.png)
+    }
+.ul__game22 img {
+    content: url(https://i.imgur.com/rWsYzJx.png)
+    }
+.ul__game27 img {
+    content: url(https://i.imgur.com/eZ4FJdF.png)
+    }
+.ul__game28 img {
+    content: url(https://i.imgur.com/X8iIQFm.png)
+    }
+.ul__game37 img {
+    content: url(https://i.imgur.com/96Dpnyz.png)
+    }
+.ul__game38 img {
+    content: url(https://i.imgur.com/JrtGKkv.png)
+    }
+.ul__game39 img {
+    content: url(https://i.imgur.com/cNcWX7H.png)
+    }
+.ul__game42 img {
+    content: url(https://i.imgur.com/UCVsp54.png)
+    }
+.ul__game43 img {
+    content: url(https://i.imgur.com/hHoHyTk.png)
+    }
+.ul__game46 img {
+    content: url(https://i.imgur.com/gdAVoHe.png)
+    }
+.ul__game49 img {
+    content: url(https://i.imgur.com/L0v3Kzl.png)
+    }
+.ul__game50 img {
+    content: url(https://i.imgur.com/9akixCy.png)
+    }
+.ul__game57 img {
+    content: url(https://i.imgur.com/VCLSmKc.png)
+    }
+.ul__game63 img {
+    content: url(https://i.imgur.com/Mryzy7P.png)
+    }
+.ul__game65 img {
+    content: url(https://i.imgur.com/Ca5uIcZ.png)
+    }
+.ul__game69 img {
+    content: url(https://i.imgur.com/h63Ku9F.png)
+    }
+.ul__game75 img {
+    content: url(https://i.imgur.com/RT4BRIc.png)
+    }
+.ul__game76 img {
+    content: url(https://i.imgur.com/l0BYkOp.png)
+    }
+.ul__game78 img {
+    content: url(https://i.imgur.com/2kb0MBd.png)
+    }
+.ul__game83 img {
+    content: url(https://i.imgur.com/z2RNhbk.png)
+    }
+.ul__game88 img {
+    content: url(https://i.imgur.com/NaIS7xs.png)
+    }
+.ul__game89 img {
+    content: url(https://i.imgur.com/rmqTYsC.png)
+    }
+.ul__game91 img {
+    content: url(https://i.imgur.com/gglfzoJ.png)
+    }
