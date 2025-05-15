@@ -299,11 +299,11 @@ a:hover {
 .ul__Erick img {
     content: url(https://i.imgur.com/HPvYF6R.png)
     }
-.ul__Dasha img {
-    content: url(https://i.imgur.com/5m6bBYL.png)
-    }
 .ul__Werther img {
     content: url(https://i.imgur.com/6rTtTOh.png)
+    }
+.ul__Dasha img {
+    content: url(https://i.imgur.com/5m6bBYL.png)
     }
 .ul__Amoris img {
     content: url(https://i.imgur.com/Q47G3md.png)
@@ -326,6 +326,9 @@ a:hover {
 .ul__Stela img {
     content: url(https://i.imgur.com/8z15PUG.png)
     }
+.ul__Bitbun img {
+    content: url(https://i.imgur.com/0Eir5cF.png)
+    }
 .ul__Cybot img {
     content: url(https://i.imgur.com/SKaLj4g.png)
     }
@@ -346,9 +349,6 @@ a:hover {
     }
 .ul__Nefertari img {
     content: url(https://i.imgur.com/RiAYGkn.png)
-    }
-.ul__Alpe img {
-    content: url(https://i.imgur.com/KW18sxz.png)
     }
 .ul__Morganna img {
     content: url(https://i.imgur.com/FyAxTh4.png)
@@ -371,8 +371,32 @@ a:hover {
 .ul__Delphin img {
     content: url(https://i.imgur.com/eVBvBAw.png)
     }
+.ul__Cesio img {
+    content: url(https://i.imgur.com/fmHEOJm.png)
+    }
+.ul__Energizzer img {
+    content: url(https://i.imgur.com/iZEttSi.png)
+    }
+.ul__Pennylane img {
+    content: url(https://i.imgur.com/OkKUVte.png)
+    }
 .ul__Natalina img {
     content: url(https://i.imgur.com/sYwNIaN.png)
+    }
+.ul__Alpe img {
+    content: url(https://i.imgur.com/KW18sxz.png)
+    }
+.ul__Provence img {
+    content: url(https://i.imgur.com/PIMqoV9.png)
+    }
+.ul__Roselie img {
+    content: url(https://i.imgur.com/pJYcMdf.png)
+    }
+.ul__Emuxa img {
+    content: url(https://i.imgur.com/Uhrw9Sn.png)
+    }
+.ul__Brych img {
+    content: url(https://i.imgur.com/d7hBqYG.png)
     }
 .ul__Annamite img {
     content: url(https://i.imgur.com/HcOWwJd.png)
@@ -395,41 +419,132 @@ a:hover {
 .ul__Sables img {
     content: url(https://i.imgur.com/02Ce1JP.png)
     }
-.ul__Pennylane img {
-    content: url(https://i.imgur.com/OkKUVte.png)
-    }
-.ul__Provence img {
-    content: url(https://i.imgur.com/PIMqoV9.png)
-    }
-.ul__Roselie img {
-    content: url(https://i.imgur.com/pJYcMdf.png)
-    }
-.ul__Emuxa img {
-    content: url(https://i.imgur.com/Uhrw9Sn.png)
-    }
-.ul__Brych img {
-    content: url(https://i.imgur.com/d7hBqYG.png)
-    }
-.ul__Bitbun img {
-    content: url(https://i.imgur.com/0Eir5cF.png)
+.ul__Dutchy img {
+    content: url(https://i.imgur.com/vz4v0bY.png)
     }
 .ul__Cutia img {
     content: url(https://i.imgur.com/HmRHFKB.png)
     }
-.ul__Dutchy img {
-    content: url(https://i.imgur.com/vz4v0bY.png)
+
+
+.ul__Xaninha img {
+    content: url(https://grundoscafe.b-cdn.net/pets/happy/wocky_valentine.gif)
     }
-.ul__Cesio img {
-    content: url(https://i.imgur.com/fmHEOJm.png)
-    }
-.ul__Energizzer img {
-    content: url(https://i.imgur.com/iZEttSi.png)
+.ul__Toffie img {
+    content: url(https://grundoscafe.b-cdn.net/pets/happy/wocky_chocolate.gif)
     }
 .ul__Nagata img {
     content: url(https://i.imgur.com/ujp3KD5.png)
     }
+.ul__Purly img {
+    content: url(https://grundoscafe.b-cdn.net/pets/happy/wocky_plushie.gif)
+    }
+.ul__Celleste img {
+    content: url(https://grundoscafe.b-cdn.net/pets/happy/wocky_faerie.gif)
+    }
+.ul__Volac img {
+    content: url(https://grundoscafe.b-cdn.net/pets/happy/wocky_darigan.gif)
+    }
+.ul__Drizzly img {
+    content: url(https://grundoscafe.b-cdn.net/pets/happy/wocky_grey.gif)
+    }
+.ul__Nybble img {
+    content: url(https://grundoscafe.b-cdn.net/pets/happy/wocky_robot.gif)
+    }
+.ul__Scabies img {
+    content: url(https://grundoscafe.b-cdn.net/pets/happy/wocky_mutant.gif)
+    }
+.ul__Somali img {
+    content: url(https://grundoscafe.b-cdn.net/pets/happy/wocky_tyrannian.gif)
+    }
+.ul__Pegg img {
+    content: url(https://grundoscafe.b-cdn.net/pets/happy/wocky_pirate.gif)
+    }
+.ul__Kanui img {
+    content: url(https://grundoscafe.b-cdn.net/pets/happy/wocky_island.gif)
+    }
+.ul__ Elys img {
+    content: url(https://grundoscafe.b-cdn.net/pets/happy/wocky_disco.gif)
+    }
+.ul__Baset img {
+    content: url(https://grundoscafe.b-cdn.net/pets/happy/wocky_desert.gif)
+    }
+.ul__Tangie img {
+    content: url(https://grundoscafe.b-cdn.net/pets/happy/wocky_jelly.gif)
+    }
+.ul__Diddle img {
+    content: url(https://grundoscafe.b-cdn.net/pets/happy/wocky_sketch_alt1.gif)
+    }
+.ul__Tico img {
+    content: url(https://grundoscafe.b-cdn.net/pets/happy/wocky_silver_alt1.gif)
+    }
+.ul__Teco img {
+    content: url(https://grundoscafe.b-cdn.net/pets/happy/wocky_orange_alt1.gif)
+    }
+.ul__Lurita img {
+    content: url(https://grundoscafe.b-cdn.net/pets/happy/wocky_white_alt1.gif)
+    }
+.ul__Frajola img {
+    content: url(https://grundoscafe.b-cdn.net/pets/happy/wocky_skunk_alt1.gif)
+    }
+.ul__Kajal img {
+    content: url(https://grundoscafe.b-cdn.net/pets/happy/wocky_brown_alt1.gif)
+    }
+.ul__Kaliko img {
+    content: url(https://grundoscafe.b-cdn.net/pets/happy/wocky_spotted_alt1.gif)
+    }
+.ul__Firefoxy img {
+    content: url(https://grundoscafe.b-cdn.net/pets/happy/wocky_red_alt1.gif)
+    }
+.ul__Guaxinim img {
+    content: url(https://grundoscafe.b-cdn.net/pets/happy/wocky_shadow_alt1.gif)
+    }
+.ul__Pusey img {
+    content: url(https://grundoscafe.b-cdn.net/pets/happy/wocky_striped_alt1.gif)
+    }
+.ul__Biscrok img {
+    content: url(https://grundoscafe.b-cdn.net/pets/happy/wocky_biscuit.gif)
+    }
+.ul__Glacy img {
+    content: url(https://grundoscafe.b-cdn.net/pets/happy/wocky_ice.gif)
+    }
+.ul__Tygra img {
+    content: url(https://grundoscafe.b-cdn.net/pets/happy/wocky_striped.gif)
+    }
+.ul__Pelepew img {
+    content: url(https://grundoscafe.b-cdn.net/pets/happy/wocky_skunk.gif)
+    }
+.ul__Gatuna img {
+    content: url(https://grundoscafe.b-cdn.net/pets/happy/wocky_baby.gif)
+    }
+
+
+.ul__Charmosa img {
+    content: url(https://grundoscafe.b-cdn.net/pets/happy/kyrii_valentine.gif)
+    }
+.ul__Patooty img {
+    content: url(https://grundoscafe.b-cdn.net/pets/happy/moehog_valentine.gif)
+    }
+.ul__Boepeep img {
+    content: url(https://grundoscafe.b-cdn.net/pets/happy/gnorbu_valentine.gif)
+    }
+.ul__Potyra img {
+    content: url(https://grundoscafe.b-cdn.net/pets/happy/poogle_valentine.gif)
+    }
+.ul__Ploomette img {
+    content: url(https://grundoscafe.b-cdn.net/pets/happy/uni_valentine.gif)
+    }
 .ul__Bambita img {
     content: url(https://i.imgur.com/gQAR58g.png)
+    }
+.ul__Fallkor img {
+    content: url(https://grundoscafe.b-cdn.net/pets/happy/draik_valentine.gif)
+    }
+.ul__Jaberjaw img {
+    content: url(https://grundoscafe.b-cdn.net/pets/happy/kiko_valentine.gif)
+    }
+.ul__Blushina img {
+    content: url(https://grundoscafe.b-cdn.net/pets/happy/kacheek_valentine.gif)
     }
 .ul__Cupio img {
     content: url(https://i.imgur.com/5NvDffy.png)
@@ -437,15 +552,99 @@ a:hover {
 .ul__Dudalino img {
     content: url(https://i.imgur.com/YA19dzd.png)
     }
+.ul__Buble img {
+    content: url(https://grundoscafe.b-cdn.net/pets/happy/jetsam_valentine.gif)
+    }
+.ul__Animada img {
+    content: url(https://grundoscafe.b-cdn.net/pets/happy/yurble_valentine.gif)
+    }
+.ul__Xuxinha img {
+    content: url(https://grundoscafe.b-cdn.net/pets/happy/zafara_valentine.gif)
+    }
+.ul__Mimoosa img {
+    content: url(https://grundoscafe.b-cdn.net/pets/happy/kau_valentine.gif)
+    }
 .ul__Bachelur img {
     content: url(https://i.imgur.com/7NwHhnH.png)
+    }
+.ul__Seally img {
+    content: url(https://grundoscafe.b-cdn.net/pets/happy/tuskaninny_valentine.gif)
     }
 .ul__Sirenn img {
     content: url(https://i.imgur.com/NdlUPe8.png)
     }
+.ul__Bartokk img {
+    content: url(https://grundoscafe.b-cdn.net/pets/happy/korbat_valentine.gif)
+    }
+.ul__Kamadeva img {
+    content: url(https://grundoscafe.b-cdn.net/pets/happy/shoyru_valentine.gif)
+    }
+.ul__Rosinha img {
+    content: url(https://grundoscafe.b-cdn.net/pets/happy/jubjub_valentine.gif)
+    }
+.ul__Walaby img {
+    content: url(https://grundoscafe.b-cdn.net/pets/happy/blumaroo_valentine.gif)
+    }
+.ul__Memada img {
+    content: url(https://grundoscafe.b-cdn.net/pets/happy/aisha_valentine.gif)
+    }
+
+
+.ul__Furgus img {
+    content: url(https://grundoscafe.b-cdn.net/pets/happy/mynci_jelly.gif)
+    }
+.ul__Gelatina img {
+    content: url(https://grundoscafe.b-cdn.net/pets/happy/kacheek_jelly_alt5.gif)
+    }
+.ul__Ambroze img {
+    content: url(https://grundoscafe.b-cdn.net/pets/happy/zafara_jelly.gif)
+    }
+.ul__Mocoto img {
+    content: url(https://grundoscafe.b-cdn.net/pets/happy/usul_jelly.gif)
+    }
+.ul__Bouncier img {
+    content: url(https://grundoscafe.b-cdn.net/pets/happy/blumaroo_jelly.gif)
+    }
+.ul__BelleBelinha img {
+    content: url(https://grundoscafe.b-cdn.net/pets/happy/chomby_jelly.gif)
+    }
+.ul__Minhoca img {
+    content: url(https://grundoscafe.b-cdn.net/pets/happy/hissi_jelly.gif)
+    }
+.ul__SeixoPasseios img {
+    content: url(https://grundoscafe.b-cdn.net/pets/happy/jetsam_jelly.gif)
+    }
+.ul__Heronn img {
+    content: url(https://grundoscafe.b-cdn.net/pets/happy/lenny_jelly.gif)
+    }
+.ul__Bloobery img {
+    content: url(https://grundoscafe.b-cdn.net/pets/happy/kau_jelly.gif)
+    }
+.ul__Tigrinhofdp img {
+    content: url(https://grundoscafe.b-cdn.net/pets/happy/kougra_jelly.gif)
+    }
+.ul__TechoMia img {
+    content: url(https://grundoscafe.b-cdn.net/pets/happy/techo_jelly.gif)
+    }
+.ul__Haikuu img {
+    content: url(https://grundoscafe.b-cdn.net/pets/happy/poogle_jelly.gif)
+    }
+
+
+.ul__Mony img {
+    content: url(https://i.imgur.com/EqlC07M.png)
+    }
+.ul__Testudo img {
+    content: url(https://grundoscafe.b-cdn.net/pets/happy/kacheek_alien.gif)
+    }
+.ul__Detonado img {
+    content: url(https://grundoscafe.b-cdn.net/pets/happy/kacheek_msp.gif)
+    }
 .ul__GCBR img {
     content: url(https://i.imgur.com/wbKh2Tn.png)
     }
+
+
 .ul__hh2023_1 {
     order: 3
     }
